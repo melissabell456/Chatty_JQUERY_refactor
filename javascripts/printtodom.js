@@ -6,7 +6,6 @@ let count = 0;
 let userMsgs=[];
 
 module.exports.createMsgDiv = (message,source) => {
-    $("#msgOutput").scrollTop($("#msgOutput").height()+100000);
     count += 1;
     // let fixMsg = message.substring(0, message.length-1);
     addToArray(message);
