@@ -15,12 +15,12 @@ $.ajax({
 })
 .done(parseMsgData);
 
-const collectWeatherData = (data) => {
-    console.log(data);
-    getWeather.gatherWeather(data);
-};
+// const collectWeatherData = (data) => {
+//     console.log(data);
+//     getWeather.gatherWeather(data);
+// };
 
-$.ajax({
-    url: `http://api.wunderground.com/api/${APIKey}/conditions/q/TN/Nashville.json`
-})
-.done(collectWeatherData);
+// $.ajax({
+//     url: `http://api.wunderground.com/api/${APIKey}/conditions/q/TN/Nashville.json`
+// })
+// .done(collectWeatherData);
